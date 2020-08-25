@@ -7,6 +7,27 @@
    the environment.
  </p>
  
+ <h2> Execution </h2>
+ 
+ ```
+ //GO TO THE BASE DIR
+ mkdir build
+ catkin_make
+ 
+ //TERMINAL 1:
+ source devel/setup.bash
+ roslaunch my_robot world.launch
+ 
+ //TERMINAL 2:
+ source devel/setup.bash
+ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+ 
+ //TERMINAL 3:
+ roslaunch my_robot mapping launch
+ 
+ //TERMINAL 4: (To vew the db file after 3 loops in this case)
+ rtabmap-databaseViewer ~/.ros/rtabmap.db
+ ```
  
  <h2> The snippet of rtabmap-databaseViewer</h2>
  
