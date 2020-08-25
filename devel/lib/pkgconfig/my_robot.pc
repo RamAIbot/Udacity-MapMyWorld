@@ -1,4 +1,4 @@
-prefix=/home/workspace/whereami/Udacity-WhereamI/devel
+prefix=/home/workspace/MapMyWorld/Udacity-WhereamI/devel
 
 Name: my_robot
 Description: Description of my_robot
